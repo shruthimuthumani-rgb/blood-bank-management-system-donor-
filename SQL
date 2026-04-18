@@ -1,0 +1,11 @@
+CREATE DATABASE bloodbankdb;
+
+USE bloodbankdb;
+
+CREATE TABLE donors (
+    donor_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    blood_group VARCHAR(5),
+    phone VARCHAR(15)
+);
